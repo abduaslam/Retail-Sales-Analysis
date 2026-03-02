@@ -4,27 +4,26 @@ A retail company operates both online and offline stores and sells multiple prod
 Management wants to better understand sales performance, customer purchasing behavior, and the effectiveness of discounts.
 However, they lack clear insights into which categories generate the most revenue, how customer spending varies across channels, and whether discounts actually improve sales performance.
 The objective of this analysis is to identify key revenue drivers, evaluate discount impact, analyze customer behavior, and provide data-driven recommendations to improve sales strategy and operational decision-making.
-```html
-<h1 style="color-red"> Data Cleaning Summary<h1/>
-```
-### Missing Values Handling
+
+ ## ** Data Cleaning Summary **
+#### Missing Values Handling
 
 Numerical columns were checked for missing values and imputed using the median to minimize the influence of outliers.
 Categorical columns with missing values were handled using context-appropriate labels:
 Product-related fields were filled with "Unknown".
 Discount-related fields were filled with "No" to indicate the absence of a discount rather than missing data.
 
-### Data Type Corrections
+#### Data Type Corrections
 The Transaction Date column was converted from object type to datetime format, enabling time-based analysis such as monthly and yearly sales trends.
 Data types for numerical columns were validated to ensure consistency for calculations and aggregations.
 
-### Consistency & Standardization
+#### Consistency & Standardization
 Categorical text fields were standardized by:
 Removing leading and trailing whitespaces.
 Normalizing text case to avoid duplicate category values (e.g., “online” vs “Online”).
 Logical consistency checks were performed to validate business rules, such as verifying that total sales values aligned with price and quantity.
 
- ### Duplicate & Invalid Records
+ #### Duplicate & Invalid Records
 The dataset was checked for duplicate records and none / relevant duplicates were removed where necessary.
 
 Records with invalid values (e.g., zero or negative quantities or prices) were identified and handled appropriately to maintain data integrity.
