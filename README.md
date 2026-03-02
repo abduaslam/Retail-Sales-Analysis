@@ -26,7 +26,7 @@ Logical consistency checks were performed to validate business rules, such as ve
  #### Duplicate & Invalid Records
 The dataset was checked for duplicate records and none / relevant duplicates were removed where necessary.
 
-EDA Summary
+## EDA Summary
 You can literally paste this into your report:
 Customer spending shows a right-skewed distribution, indicating most customers make low-value purchases.
 A small number of categories contribute the majority of total revenue.
