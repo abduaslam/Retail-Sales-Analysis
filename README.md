@@ -5,7 +5,7 @@ Management wants to better understand sales performance, customer purchasing beh
 However, they lack clear insights into which categories generate the most revenue, how customer spending varies across channels, and whether discounts actually improve sales performance.
 The objective of this analysis is to identify key revenue drivers, evaluate discount impact, analyze customer behavior, and provide data-driven recommendations to improve sales strategy and operational decision-making.
 
-** ##  Data Cleaning Summary **
+ ##  Data Cleaning Summary 
 #### Missing Values Handling
 
 Numerical columns were checked for missing values and imputed using the median to minimize the influence of outliers.
