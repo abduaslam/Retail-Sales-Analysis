@@ -71,5 +71,5 @@ Digital payment methods are the most commonly used
 
 Monthly sales trends
 Sales show fluctuations across months, suggesting possible seasonal purchasing patterns.
-7. Most popular payment methods
+ Most popular payment methods
 Credit cards and digital payments were the most commonly used payment methods.
